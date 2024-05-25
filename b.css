@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Times new roman", sans-serif;
+  }
+  body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: rgb(225, 110, 194);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  } 
+  body {
+    font-family: 'Wendy One', sans-serif;
+    background: #e7d173;
+    display: flex;
+    align-content: top;
+    justify-content: center;
+  }
+  .drag-area{
+	border: 5px solid #c80ddd;    
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  flex-flow: column wrap;
+  margin-top: 250px;
+  }
+  .drag-area.active{
+	border: 2px solid white;
+  }
+  .drag-area .icon{
+	font-size: 100px;
+	color: #fff;
+  }
+  .drag-area header{
+	font-size: 18px;
+	font-weight: 500;
+	color: #15d7c4;
+  }
+  .drag-area span{
+	font-size: 14px;
+	font-weight: 500;
+	color: #d72929;
+	margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	background: #0cd8f3;
+	color: #5256ad;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  .drag-area img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+  }
+
+  #status{
+    margin-top:60%;
+    color: rgb(15, 87, 231);
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  #prediction-result{
+    margin-top: 60%;
+    justify-content: center;
+  }
+
+#selected-img{
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#container {
+	display: inline-block; 
+	border: 2px solid #be1919; 
+}
+#status1{
+    margin-top:60%;
+    color: rgb(15, 87, 231);
+    font-weight: bold;
+    justify-content: center;
+  }
