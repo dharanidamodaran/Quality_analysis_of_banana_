@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="b.css">
+    <title>BANANA QUALITY</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133437549-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133437549-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Is this banana ripe?</title>
+    <!-- Favicon by Freepik> from https://www.flaticon.com/ -->
+    <link rel="icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.15.3/dist/tf.min.js"></script> 
+</head>
+<body>
+    <div class="drag-area">
+        <header>Drag & Drop to Upload Image</header>
+        <span>or</span>
+        <header>Browse Image</header>
+        <input type="file" id="image-selector" accept="image/*;capture=camera"></p> 
+    </div>
+    <div id="container">
+    <img id="selected-image" src="banana.jpg" width="200" height="200"></p>
+    </div>
+    <div id="status"></div>
+    <div id="msg"></div>
+    <h2 id="prediction-result" style="font-size: medium;color: rgb(228, 34, 34); text-align: center;"></h1>
+    
+   <!--- <input type="file" id="image-selector" accept="image/*;capture=camera"></p> -->   
+	<script src="index.js"></script>
+	</body>   
